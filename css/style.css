@@ -1,4 +1,6 @@
 /* CSS Document */
+@import url('https://css.gg/css'); /* Icons */
+
 * {position: relative;}
 body {
 	margin: 0;
@@ -7,72 +9,4 @@ body {
 	color: #f4f4f4;
 }
 .main {max-width: 1280px;margin: auto;} /*Restrits width of content and centers*/
-.hide {visibility: hidden; position: absolute; width: 0; height: 0} /*Hides elements*/
-
-/* navbar */
-nav {font-size: 1.5em; background-color: rgba(34,34,34,.5); position: fixed; width: 100%; top: 0px}
-nav a {color: #f4f4f4;text-decoration: none;} nav a:hover {color: #cd32a3;}
-nav a img {filter: saturate(0) brightness(100)} nav a:hover img {filter: saturate(100) hue-rotate(-44deg)}
-
-nav ul {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-}
-nav li.spacer {
-	flex-grow: 1;
-}
-nav li {
-	padding: 0 16px;
-}
-#about {
-	flex-basis: 190px;
-	text-align: right
-}
-
-@media only screen and (max-width: 900px) {
-	nav ul {
-		flex-direction: column;
-	}
-	nav li {
-		width: 100%;
-		text-align: left;
-	}
-	#about-spacer {
-		width: auto;
-	}
-}
-
-
-
-
-
-
-/*	Vertial Align: */
-.top {
-	
-}
-.middle {
-	
-}
-.bottom {
-	
-}
-
-/*	Horizontal Align: */
-.left {
-	
-}
-.center {
-	
-}
-.right {
-	
-}
-
+.hidden {visibility: hidden; position: absolute; width: 0; height: 0} /*Hides elements*/

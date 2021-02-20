@@ -4,22 +4,31 @@
 <meta charset="utf-8">
 <title>Adrian Capacite</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<nav>
+<!--	<nav id="nav-side">
+		<ul>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="photography.html">Photographuy</a></li>
+			<li><a href="software.html">Software</a></li>
+			<li><a href="about.html" >About</a></li>
+		</ul>
+	</nav>-->
+	
+	<nav id="nav-bar">
 		<div class="main">
-			
-			<ul>
-				<li><a href="index.html" class="left"><span class="hide">Adrian Capacite</span><img src="images/logo/aclogo_64px.png" alt="logo"></a></li>
+			<a href="index.html" id="logo"><span class="hidden">Adrian Capacite</span><img src="images/logo/aclogo_64px.png" alt="logo"></a>
+			<ul id="nav">
+				<li class="fixed-space"></li>
 				<li class="spacer"></li>
 				<li><a href="blog.html">Blog</a></li>
 				<li><a href="photography.html">Photographuy</a></li>
 				<li><a href="software.html">Software</a></li>
 				<li class="spacer"></li>
-				<li><a href="about.html" id="about" >About</a></li>
+				<li class="fixed-space" id="about"><a href="about.html" >About</a></li>
 			</ul>
-			
 		</div>
 	</nav>
 	

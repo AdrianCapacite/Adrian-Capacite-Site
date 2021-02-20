@@ -1,0 +1,49 @@
+/* CSS Document */
+/* navbar */
+nav {font-size: 1.5em; background-color: rgba(34,34,34,.5); position: fixed; width: 100%; top: 0px}
+nav a {color: #f4f4f4;text-decoration: none; transition: color 0.1s ease;}
+nav a:hover {color: #cd32a3;}
+nav a img {filter: saturate(0) brightness(100); transition: filter 0.1s ease;}
+nav a:hover img {filter: saturate(100) hue-rotate(-44deg); }
+
+nav ul {
+	z-index: 0;
+	position: relative;
+	width: 100%;
+	min-height: 64px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+nav .spacer {flex-grow: 1; z-index: -100; visibility: hidden;}
+nav li {padding: 0 16px;}
+#logo {z-index: 1;
+	position: absolute;
+	height: inherit;
+}
+#about {text-align: right}
+
+
+@media only screen and (min-width: 900px) {
+	nav li.fixed-space{flex-basis: 200px;}
+}
+@media only screen and (max-width: 900px) {
+	nav ul {
+		flex-direction: column;
+	}
+	nav li {
+		width: 100%;
+		text-align: center;
+		
+	}
+	nav .spacer {display: none;}
+	nav .fixed-space {flex-basis: 0px}
+	#logo {
+		position: relative;
+	}
+	#about {text-align: center}
+}
