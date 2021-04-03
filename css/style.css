@@ -1,12 +1,82 @@
 /* CSS Document */
-@import url('https://css.gg/css'); /* Icons */
 
 * {position: relative;}
+#page-top-padding {
+	width: 100%;
+	height: 64px;
+}
+
 body {
 	margin: 0;
-	padding-top: 64px;
 	background-color: #444;
 	color: #f4f4f4;
+	padding-bottom: 50vh;
 }
-.main {max-width: 1280px;margin: auto;} /*Restrits width of content and centers*/
+.main {max-width: 1280px; margin: auto; padding: 0 16px 0 16px;} /*Restrits width of content and centers*/
 .hidden {visibility: hidden; position: absolute; width: 0; height: 0} /*Hides elements*/
+
+/* Page header styles */
+header {
+	box-shadow: inset 0 -64px 128px -64px #000;
+}
+header h1{
+	font-size: 5em;
+	font-style: normal;
+}
+
+#heading-logo {
+	display: inline-block;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+
+#heading-blog {
+	left: 0;
+	top: 100%;
+	transform: translateY(-100%);
+}
+
+/* Card styles */
+.featured {
+	box-sizing: border-box;
+	width: 100%;
+	height: 512px;
+	padding: 16px;
+}
+.featured a {
+	color: #222;
+	font-size: 1.5em;
+}
+.featured img {
+	box-sizing: border-box;
+	width: 67%;
+	height: 100%;
+	object-fit: cover;
+	float: left;
+}
+.featured>div {
+	box-sizing: border-box;
+	width: 33%;
+	height: 100%;
+	float: right;
+	color: #222;
+	background-color: #eee;
+	padding: 10px;
+}
+
+.blog {
+	box-sizing: border-box;
+	
+}
+
+/* Shadow styles */
+.main-shadow {
+	box-shadow: 0 2px 8px 0px #000;
+}
+.container-shadow {
+	box-shadow: 0 0 4px 0px #000;
+}
+.image-shadow {
+	box-shadow: 0 0 4px 0px #000;
+}

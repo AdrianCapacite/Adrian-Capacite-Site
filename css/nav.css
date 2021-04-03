@@ -1,6 +1,14 @@
 /* CSS Document */
 /* navbar */
-nav {font-size: 1.5em; background-color: rgba(34,34,34,.5); position: fixed; width: 100%; top: 0px}
+
+nav {font-size: 1.5em;
+	background-color:
+	rgba(34,34,34,.5);
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 100;
+}
 nav a {color: #f4f4f4;text-decoration: none; transition: color 0.1s ease;}
 nav a:hover {color: #cd32a3;}
 nav a img {filter: saturate(0) brightness(100); transition: filter 0.1s ease;}
@@ -21,29 +29,49 @@ nav ul {
 }
 nav .spacer {flex-grow: 1; z-index: -100; visibility: hidden;}
 nav li {padding: 0 16px;}
-#logo {z-index: 1;
+#logo {
+	padding-left: 16px;
 	position: absolute;
+	z-index: 1;
 	height: inherit;
 }
 #about {text-align: right}
 
-
-@media only screen and (min-width: 900px) {
-	nav li.fixed-space{flex-basis: 200px;}
+#nav-toggle {
+	z-index: 1;
+	padding-right: 16px;
+	position: absolute;
+	right: 0;
+	top: 32px;
+	vertical-align: middle;
+	transform: translateY(-50%)
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width : 800px ){
+	nav li.fixed-space{flex-basis: 200px;}
+	
+	#nav-toggle {
+		display: none;
+	}
+}
+@media only screen and (max-width : 800px ){
 	nav ul {
 		flex-direction: column;
+		display: none;
 	}
 	nav li {
 		width: 100%;
 		text-align: center;
 		
 	}
+	
 	nav .spacer {display: none;}
 	nav .fixed-space {flex-basis: 0px}
 	#logo {
 		position: relative;
 	}
 	#about {text-align: center}
+	
+	#nav-toggle {
+		display: block;
+	}
 }

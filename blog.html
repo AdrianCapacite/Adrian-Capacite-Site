@@ -2,9 +2,88 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Adrian Capacite</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<script src="js/nav-drop.js"></script>
+	
+	<style>
+		header {
+			background-image: url("images/backgrounds/headerImage.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+	</style>
+	
 </head>
 
 <body>
+<!--	<nav id="nav-side">
+		<ul>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="photography.html">Photographuy</a></li>
+			<li><a href="software.html">Software</a></li>
+			<li><a href="about.html" >About</a></li>
+		</ul>
+	</nav>-->
+	
+	<nav id="nav-bar">
+		<div class="main">
+			<a href="index.html" id="logo"><span class="hidden">Adrian Capacite</span><img src="images/logo/aclogo_64px.png" alt="logo"></a>
+			
+			<a href="javascript:void(0);" id="nav-toggle" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+			
+			<ul id="nav">
+				<li class="fixed-space"></li>
+				<li class="spacer"></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="photography.html">Photography</a></li>
+				<li><a href="software.html">Software</a></li>
+				<li class="spacer"></li>
+				<li class="fixed-space" id="about"><a href="about.html" >About</a></li>
+			</ul>
+			
+		</div>
+	</nav>
+
+	
+	<header>
+		<div class="main height-256">
+			<div  id="heading-logo" class="center-middle">
+				<h1>Blog</h1>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div class="main">
+			<article class="featured">
+				<img src="images/photos/blog_featured.jpg" alt=""/>
+				<div>
+					<a href="blog1.html"><h1>Featured blog</h1></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus commodi, officia pariatur, aut dolor id quidem voluptas consectetur fuga deleniti in possimus incidunt eos vel delectus et, quo quas? Fuga officiis laudantium fugiat fugit harum saepe quam quos eveniet iure alias, qui sint ipsam voluptatem odit quas! Perspiciatis, eaque, optio.</p>
+				</div>
+			</article>
+			<div>
+				<article class="blog">
+					<img src="images/photos/blog_photo1.jpeg" alt="">
+					<div></div>
+				</article>
+				<article class="blog">
+				
+				</article>
+				<article class="blog">
+				
+				</article>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="main"></div>
+	</footer>
 </body>
 </html>
