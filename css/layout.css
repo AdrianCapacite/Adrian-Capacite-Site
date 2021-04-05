@@ -6,7 +6,6 @@
 .height-100 {
 	height: 100%;
 }
-
 .height-vp {
 	height: 100vh;
 }
@@ -17,13 +16,11 @@
 	height: 256px
 }
 
-
 /* Element Alignment */
 .center {
 	left: 50%;
 	transform: translateX(-50%);
 }
-
 .middle {
 	top: 50%;
 	transform: translateY(-50%);
@@ -41,6 +38,9 @@
 }
 
 /* Text Aligntment */
+.txt-center {
+	text-align: center
+}
 .txt-center {
 	text-align: center
 }

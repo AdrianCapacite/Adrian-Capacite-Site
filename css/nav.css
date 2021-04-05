@@ -1,7 +1,8 @@
 /* CSS Document */
 /* navbar */
 
-nav {font-size: 1.5em;
+nav {
+	font-size: 1.5em;
 	background-color:
 	rgba(34,34,34,.5);
 	position: fixed;
@@ -9,6 +10,8 @@ nav {font-size: 1.5em;
 	top: 0px;
 	z-index: 100;
 }
+nav>div{max-width: 1280px; margin: auto; padding: 0 16px 0 16px}
+
 nav a {color: #f4f4f4;text-decoration: none; transition: color 0.1s ease;}
 nav a:hover {color: #cd32a3;}
 nav a img {filter: saturate(0) brightness(100); transition: filter 0.1s ease;}
