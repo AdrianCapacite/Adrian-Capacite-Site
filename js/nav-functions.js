@@ -14,10 +14,10 @@ window.onscroll = function() {scrollFunction()};
 	function scrollFunction() {
 		var nav = document.getElementById("nav-container");
 		if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-		nav.style.minHeight = "46px";
-		nav.style.padding = "2px 0";
-		} else {
 		nav.style.minHeight = "48px";
-		nav.style.padding = "8px 0";
+		nav.style.padding = "0px 0";
+		} else {
+		nav.style.minHeight = "56px";
+		nav.style.padding = "4px 0";
 	}
 }
