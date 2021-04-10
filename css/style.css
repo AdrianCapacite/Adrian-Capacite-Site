@@ -9,6 +9,13 @@ body {
 }
 .main {max-width: 1280px; margin: auto; padding: 0 16px 0 16px;} /*Restrits width of content and centers*/
 .hidden {visibility: hidden; position: absolute; width: 0; height: 0} /*Hides elements*/
+div.accent-line {
+	margin: auto;
+	height: 4px;
+	width: 64px;
+	background-color: #cd23a3;
+	padding: 0px 0;
+}
 
 /**** Text styles ****/
 h1 {
@@ -80,13 +87,6 @@ body#topic header>div>div {
 }
 body#topic header>div>div h1{
 	margin: 4px 0;
-}
-body#topic header>div>div div{
-	margin: auto;
-	height: 4px;
-	width: 64px;
-	background-color: #cd23a3;
-	padding: 0px 0;
 }
 body#topic main>div {
 	margin: auto; 
@@ -186,7 +186,6 @@ body#blog header>div>div h1{
 	font-size: 3em;
 	font-style: normal;
 	margin: 4px 0;
-	border-bottom: solid 4px #cd23a3;
 	padding: 4px 0;
 }
 body#blog header>div>div a{
