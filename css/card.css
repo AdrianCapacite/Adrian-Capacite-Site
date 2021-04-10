@@ -1,0 +1,138 @@
+/* CSS Document */
+
+/* Link to article*/
+a.article-link {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	transform: translate(-100%, -100%);
+	transition: color .4s;
+	transition-duration: .4s;
+	transition-property: color, background-color, box-shadow;
+	display: inline-block;
+	margin: -16px;
+	width: 128px;
+	padding: 8px;
+	border: solid 4px #cd32a3;
+	background-color: #cd32a3;
+	color: #f4f4f4;
+	text-align: center;
+	text-decoration: none;
+}
+a.article-link:hover {
+	background: #f4f4f4;
+	color: #222;
+}
+
+/**** Card styles ****/
+/* featured style*/
+@media only screen and (min-width: 1280px ){
+	.featured-card img {
+		width: 67%;
+	}
+	.featured-card>div {
+		width: 33%;
+	}
+}
+@media only screen and (max-width: 1280px){
+	.featured-card img {
+		width: 100%;
+		height: 205px;;
+	}
+	.featured-card>div {
+		width: 100%;
+		min-height: 307px;
+	}
+}
+.featured-card {	
+	margin: 16px 0;
+	width: 100%;
+	min-height: 512px;
+	box-shadow: 0 2px 8px 0px #cd32a3;
+	transition: box-shadow 1s;
+}
+.featured-card:hover {
+	box-shadow: 0 2px 16px 4px #cd32a3;
+}
+.featured-card:hover div a{
+	box-shadow: 0 2px 16px 4px #777;
+}
+.featured-card img {
+	height: 512px;;
+	object-fit: cover;
+	float: left;
+}
+.featured-card>div {
+	display: inline-block;
+	box-sizing: border-box;
+	min-height: 512px;
+	color: #222;
+	background-color: #eee;
+	padding: 16px;
+	text-align: left;
+}
+.featured-card>div h3 {
+	margin: 4px 0;
+}
+.featured-card>div p {	
+	margin: 8px 0 0;
+}
+
+/* normal style*/
+@media only screen and (min-width: 1280px ){
+	.articles article {	
+		width: 30%
+	}
+}
+@media only screen and (min-width: 800px) and (max-width: 1280px){
+	.articles article {	
+		width: 45%;
+		min-width: 200px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.articles article {	
+		width: 90%;
+		min-width: 200px;
+	}
+}
+.articles h2 {	
+	margin: 32px 0 0;
+	text-align: left
+}
+.articles p {	
+	margin: 8px 0 0;
+	text-align: left
+}
+.articles article {	
+	display: inline-block;
+	margin: 16px 16px;
+	height: 512px;
+	box-shadow: 0 2px 8px 0px #000;
+	transition: box-shadow 1s;
+	}
+.articles article:hover {
+	box-shadow: 0 2px 16px 2px #000
+}
+.articles article:hover div a{
+	box-shadow: 0 2px 16px 4px #777;
+}
+.articles article img {
+	width: 100%;
+	height: 40%;
+	object-fit: cover;
+	float: left;
+}
+.articles article>div {
+	box-sizing: border-box;
+	width: 100%;
+	height: 60%;
+	float: right;
+	color: #222;
+	background-color: #eee;
+	padding: 16px;
+	text-align: left;
+}
+.articles article>div h3 {
+	margin: 2px 0;
+}

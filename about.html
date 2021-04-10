@@ -2,9 +2,71 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Adrian Capacite</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css" rel="stylesheet" type="text/css">
+<script src="js/nav-functions.js"></script>
+
+<style>
+	body {
+		background-image: url("images/backgrounds/portrait_silhouette.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+</style>
 </head>
 
-<body>
+<body id="about">
+	<nav id="nav-container">
+		<div>
+			<a href="index.html" id="logo"><span class="hidden">Adrian Capacite</span><img src="images/logo/aclogo_64px.png" alt="logo"></a>
+			
+			<a href="javascript:void(0);" id="nav-toggle" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+			
+			<ul id="nav-items">
+				<li class="fixed-space"></li>
+				<li class="spacer"></li>
+				<li><a href="blogs.html">Blogs</a></li>
+				<li><a href="photography.html">Photography</a></li>
+				<li><a href="software.html">Software</a></li>
+				<li class="spacer"></li>
+				<li class="fixed-space" id="nav-about"><a href="about.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<header>
+		<div>
+			<div>
+				<h1>About</h1>
+				<div></div>
+				<div>
+				<img src="images/logo/Adrian_Logo_White_x128.png" width="393" height="128" alt=""/>
+				<img src="images/logo/Capacite_Logo_White_x128.png" width="393" height="128" alt=""/>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div>
+			<p align="justify" >My name is Adrian Capacite, I am a full-time software development student</p>
+			<h3 align="left">Contact and social media</h3>
+			<p align="left">
+				<i class="fa fa-phone-square fa-fw"></i> 087 381 5320 <br/>
+				<a href="mailto:capacite.adrian.thomas@gmail.com" style="font-size: 20px"><i class="fa fa-envelope-square fa-fw"></i> capacite.adrian.thomas@gmail.com </a><br/>
+				<a href="https://twitter.com/AdrianCapacite" style="font-size: 20px"><i class="fa fa-twitter-square fa-fw"></i> @AdrianCapacite </a><br/>
+				<a href="https://www.instagram.com/adriancapacite/" style="font-size: 20px"><i class="fa fa-instagram fa-fw"></i> @adriancapacite </a><br/>
+				<a href="https://www.linkedin.com/in/adrian-thomas-capacite-1b17351b9/" style="font-size: 20px"><i class="fa fa-linkedin-square fa-fw"></i> www.linkedin.com/in/adrian-thomas-capacite-1b17351b9/ </a><br/>
+			
+			</p>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="main" style="padding-top: 16px">&copy; 2021 All Rights Reserved</div>
+	</footer>
 </body>
 </html>

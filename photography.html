@@ -2,9 +2,83 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Adrian Capacite</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/nav.css" rel="stylesheet" type="text/css">
+<link href="css/card.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<script src="js/nav-functions.js"></script>
+	
+	<style>
+		header {
+			background-image: url("images/backgrounds/passing-car-lights.png");
+			background-position: 50% 50%;
+		}
+	</style>
+	
 </head>
 
-<body>
+<body id="gallery">
+	<nav id="nav-container">
+		<div>
+			<a href="index.html" id="logo"><span class="hidden">Adrian Capacite</span><img src="images/logo/aclogo_64px.png" alt="logo"></a>
+			
+			<a href="javascript:void(0);" id="nav-toggle" onclick="toggleNav()"><i class="fa fa-bars"></i></a>
+			
+			<ul id="nav-items">
+				<li class="fixed-space"></li>
+				<li class="spacer"></li>
+				<li><a href="blogs.html">Blogs</a></li>
+				<li><a href="photography.html">Photography</a></li>
+				<li><a href="software.html">Software</a></li>
+				<li class="spacer"></li>
+				<li class="fixed-space" id="nav-about"><a href="about.html" >About</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	
+	<header>
+		<div>
+			<div>
+				<h1>Photography</h1>
+				<div></div>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<div>
+			<article class="featured">
+				<a href="blog-welcome.html"><img src="images/photos/venice-gondola.jpg" alt=""/></a>
+				<div>
+					<a href="blog-welcome.html"><h3>Welcome to my website</h3></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellat aliquam molestias ipsa asperiores ullam temporibus reiciendis aspernatur, dolore alias.</p>
+				</div>
+			</article>
+			<div class="articles">
+				<h2>All blogs</h2>
+				<article>
+					<a href="blog-welcome.html"><img src="images/photos/venice-gondola.jpg" alt=""></a>
+					<div>
+						<a href="blog-welcome.html"><h3>Welcome to my website</h3></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quam ipsum repudiandae laboriosam illo? Aut deleniti illo dolores officia quas.</p>
+					</div>
+				</article>
+				<article>
+					<a href="blog-welcome.html"><img src="images/photos/venice-gondola.jpg" alt=""></a>
+					<div>
+						<a href="blog-template.html"><h3>Example Article</h3></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum dolorum, sed? A neque iure eius earum aspernatur quasi, nobis totam.</p>
+					</div>
+				</article>
+			</div>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="main"></div>
+	</footer>
 </body>
 </html>
