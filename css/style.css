@@ -153,7 +153,6 @@ body#about header>div>div h1{
 	text-align: center;
 	width: 384px;
 	margin: 4px auto;
-	border-bottom: solid 4px #cd23a3;
 	padding: 4px 0;
 }
 body#about main>div {
@@ -186,6 +185,7 @@ body#blog header>div>div h1{
 	font-size: 3em;
 	font-style: normal;
 	margin: 4px 0;
+	border-bottom: solid 4px #cd23a3;
 	padding: 4px 0;
 }
 body#blog header>div>div a{

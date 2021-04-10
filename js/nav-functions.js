@@ -18,6 +18,6 @@ window.onscroll = function() {scrollFunction()};
 		nav.style.padding = "2px 0";
 		} else {
 		nav.style.minHeight = "48px";
-		nav.style.padding = "16px 0";
+		nav.style.padding = "8px 0";
 	}
 }
