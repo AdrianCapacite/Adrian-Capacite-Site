@@ -88,31 +88,38 @@ body#topic header>div>div div{
 	background-color: #cd23a3;
 	padding: 0px 0;
 }
+body#topic main>div {
+	margin: auto; 
+	box-shadow: 0 2px 8px 0px #000;
+	max-width: 1280px;
+	padding: 16px 16px;
+	text-align: center;
+}
 
 /* Gallery*/
-gallery#topic header {
+body#gallery header {
 	box-shadow: inset 0 -64px 128px -64px #000;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
-gallery#topic header>div {
+body#gallery header>div {
 	margin: auto; 
 	max-width: 1280px;
 	height: 256px;
 	min-height: 256px;
 	padding: 1px 16px;
 }
-gallery#topic header>div>div {
+body#gallery header>div>div {
 	display: inline-block;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%)
 }
-gallery#topic header>div>div h1{
+body#gallery header>div>div h1{
 	margin: 4px 0;
 }
-gallery#topic header>div>div div{
+body#gallery header>div>div div{
 	margin: auto;
 	height: 4px;
 	width: 64px;
@@ -120,7 +127,7 @@ gallery#topic header>div>div div{
 	padding: 0px 0;
 }
 
-gallery#topic main>div {
+body#gallery main>div {
 	margin: auto; 
 	box-shadow: 0 2px 8px 0px #000;
 	max-width: 1280px;
