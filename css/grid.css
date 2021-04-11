@@ -21,43 +21,10 @@
 		grid-auto-rows: minmax(128px, auto);
 	}
 }
-.photo {
-	box-shadow: 0 2px 8px 0px #000;
-	transition: box-shadow 1s;
-	background-color: #F4F4F4;
-	overflow: hidden;
-}
-.photo:hover {
-	box-shadow: 0 2px 16px 4px #000;
-}
-.photo img {
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-}
 
+/* Use this to check how much image is cropped */
 .gallery-test .photo img {
 	object-fit: contain;
-}
-.photo .caption {
-	position: absolute;
-	top: 100%;
-	transition: ease-out .4s;
-	transition-property: transform;
-	box-sizing: border-box;
-	width: 100%;
-	min-height: 3em;
-	padding: 0px 2px;
-	transform: translateY(0%);
-	background: rgba(34,34,34,.5);
-}
-.photo .caption p {
-	text-align: center;
-	font-size: 1em;
-}
-.photo:hover .caption {
-	transform: translateY(-100%);
-	padding: 0px 2px;
 }
 
 /* Grid item sizes */
