@@ -255,6 +255,16 @@ a:hover {color: #cd32a3;}
 	text-align: left;
 	color: #222;
 }
+#blog main .date {
+	color: #444;
+	margin: 4px 0;
+	font-size: 1em;
+}
+#blog main a {
+	color: #222;
+	margin: 4px 0;
+	font-size: 20px;
+}
 #blog footer>div {
 	margin: auto;
 	max-width: 1280px;
